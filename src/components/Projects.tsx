@@ -6,11 +6,11 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects: Project[] = [
   {
     id: 1,
-    title: "Neon Nexus",
+    title: "Pensando no Futuro",
     category: "Web",
-    image: "https://picsum.photos/800/600?grayscale&random=1",
-    description: "A cyberpunk-inspired dashboard for crypto analytics.",
-    technologies: ["React", "D3.js", "Tailwind"]
+    image: "https://i.postimg.cc/gJgr5S6K/Captura-de-tela-2026-02-26-150950.png",
+    description: "Uma página Web pensada em auxiliar estudantes.",
+    technologies: ["React", "Node.js", "Tailwind"]
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const projects: Project[] = [
   }
 ];
 
-const categories = ['All', 'Web', 'Mobile', 'Design', 'AI'];
+const categories = ['All', 'Web', 'Design'];
 
 // Creative Text Animation Component
 const AnimatedTitle = ({ text }: { text: string }) => {
