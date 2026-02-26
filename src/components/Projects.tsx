@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
-import { Project } from '../types';
+import { Project } from '../../types';
 import { ExternalLink, Github } from 'lucide-react';
 
 const projects: Project[] = [
